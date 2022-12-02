@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import Infos from './components/info';
+import Pagination from './components/pagination';
+import PostPage from './components/PostPage';
 
 function App() {
   return (
@@ -17,6 +20,9 @@ function App() {
         >
           Learn React
         </a>
+        {/* <Infos/> */}
+        {/* <Pagination/> */}
+        <PostPage/>
       </header>
     </div>
   );
